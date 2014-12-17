@@ -1,0 +1,182 @@
+- 18847C Reading List
+    - Part I: Dark Silicon and the Ends of Moore’s Law and Dennard
+      Scaling
+        - Moore’s Law and Dennard Scaling
+            - Cramming More Components onto Integrated Circuits -
+              http://dl.acm.org/citation.cfm?id=333067.333074&coll=DL&dl
+              =GUIDE&CFID=458677912&CFTOKEN=56646311
+            - Design of Ion-Implanted MOSFET’S with Very Small Physical
+              Dimensions -
+              http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1050
+              511
+        - Dark Silicon
+            - Dark Silicon and the End of Multicore Scaling -
+              http://dl.acm.org/citation.cfm?id=2000108
+            - Looking back on the language and hardware revolutions:
+              measured power, performance, and scaling -
+              http://dl.acm.org/citation.cfm?id=1950402&CFID=458677912&C
+              FTOKEN=56646311 
+    - Part II: Homogeneous Parallelism, Multicores, Efficiency, and
+      Programmability
+        - Multicore to Save the Day?
+            - Amdahl's Law in the Multicore Era -
+              http://dl.acm.org/citation.cfm?id=1449387&CFID=458677912&C
+              FTOKEN=56646311
+            - Power Challenges May End the Multicore Era -
+              http://dl.acm.org/citation.cfm?id=2408797&CFID=458677912&C
+              FTOKEN=56646311
+        - Sequential Consistency & Memory Models
+            - Basics and Foundational Papers
+                - A Primer on Consistency and Cache Coherence (Chapters
+                  3-4) -
+                  http://www.morganclaypool.com/doi/abs/10.2200/S00346ED
+                  1V01Y201104CAC016
+                - How to make a multiprocessor computer that correctly
+                  executes multiprocess programs -
+                  http://research.microsoft.com/en-us/um/people/lamport/
+                  pubs/multi.pdf
+                - Time, clocks and the ordering of events in a
+                  distributed system -
+                  http://dl.acm.org/citation.cfm?id=359545.359563
+            - Memory Consistency Model Definitions
+                - Memory consistency and event ordering in scalable
+                  shared-memory multiprocessors -
+                  http://dl.acm.org/citation.cfm?id=325102
+                - Foundations of the C++ concurrency Memory Model -
+                  http://dl.acm.org/citation.cfm?id=1375591
+                - x86-TSO: a rigorous and usable programmer’s model for
+                  x86 multiprocessors
+                  http://dl.acm.org/citation.cfm?id=1785414.1785443
+                - PipeCheck: Specifying and Verifying
+                  Microarchitectural Enforcement of Memory Consistency
+                  Models -
+                  http://mrmgroup.cs.princeton.edu/papers/dlustig_MICRO1
+                  4header.pdf
+            - Hardware Support for SC Memory Models with Exceptions
+                - Conflict Exceptions: simplifying concurrent language
+                  semantics with precise hardware exceptions for
+                  data-races - http://dl.acm.org/citation.cfm?id=1815987
+                - DRFx: a simple and efficient memory model for
+                  concurrent programming languages -
+                  http://dl.acm.org/citation.cfm?id=1806636&CFID=4586779
+                  12&CFTOKEN=56646311
+            - Coarse-grained SC-Enforcement
+                - BulkSC: bulk enforcement of sequential consistency -
+                  http://dl.acm.org/citation.cfm?id=1250697&CFID=4586779
+                  12&CFTOKEN=56646311
+                - Transactional Memory Coherence and Consistency -
+                  http://dl.acm.org/citation.cfm?id=1006711
+                - Mechanisms for store-wait-free multiprocessors -
+                  http://dl.acm.org/citation.cfm?id=1250696&CFID=4586779
+                  12&CFTOKEN=56646311
+        - Deterministic Replay and Execution
+            - DMP: deterministic shared memory multiprocessing -
+              http://dl.acm.org/citation.cfm?id=1508255
+            - A type and effect system for deterministic parallel java
+              - http://dl.acm.org/citation.cfm?id=2121416
+            - A "flight data recorder" for enabling full-system
+              multiprocessor deterministic replay -
+              http://dl.acm.org/citation.cfm?id=859633
+            - CoreDet: a compiler and runtime system for deterministic
+              multithreaded execution -
+              http://dl.acm.org/citation.cfm?id=1736029
+        - Hardware Support for Detecting & Avoiding Concurrency Bugs
+            - Hardware Support for Detecting Concurrency Bugs
+                * Finding Concurrency Bugs with Context-aware
+                  Communication Graphs -
+                  http://dl.acm.org/citation.cfm?id=1669181
+                - AVIO: detecting atomicity violations via access
+                  interleaving invariants -
+                  http://dl.acm.org/citation.cfm?id=1168864
+                - Light64: lightweight hardware support for race
+                  detection during systematic testing of parallel
+                  programs - http://dl.acm.org/citation.cfm?id=1669180
+                - Parallelizing data-race detection -
+                  http://dl.acm.org/citation.cfm?id=2451120
+            - System Support for Avoiding Failures Due to Concurrency
+              Bugs
+                - Cooperative, Empirical Failure Avoidance for
+                  Multithreaded Programs -
+                  http://dl.acm.org/citation.cfm?id=2451121
+                - Flexible, Hardware Acceleration for Instruction-Grain
+                  Lifeguards - http://dl.acm.org/citation.cfm?id=1512280
+                - Atom-aid: detecting and surviving atomicity
+                  violations - http://dl.acm.org/citation.cfm?id=1382145
+                - A Case for an interleaving constrained shared-memory
+                  multi-processor -
+                  http://dl.acm.org/citation.cfm?id=1555796
+        - Power and Energy
+            - Thread criticality predictors for dynamic performance,
+              power, and resource management in chip multiprocessors
+              -http://dl.acm.org/citation.cfm?id=1555792
+            - Flicker: a dynamically adaptive architecture for power
+              limited multicore systems -
+              http://dl.acm.org/citation.cfm?id=2485924
+            - Thread Motion: fine-grained power management for
+              multi-core systems -
+              http://dl.acm.org/citation.cfm?id=1555793
+            - Energy-performance tradeoffs in processor architecture
+              and circuit design: a marginal cost analysis -
+              http://dl.acm.org/citation.cfm?id=1815967
+        - Parallel Execution Strategies
+            - Dataflow execution of sequential imperative programs on
+              multicore architectures -
+              http://dl.acm.org/citation.cfm?id=2155628
+            - Evaluation of the RAW Microprocessor: An Exposed
+              Wire-delay Architecture for ILP and Streams -
+              http://dl.acm.org/citation.cfm?id=1006733
+            - WaveScalar - http://dl.acm.org/citation.cfm?id=956546
+            - An Evaluation of the TRIPS computer system -
+              http://dl.acm.org/citation.cfm?id=1508246
+    - Part III: Heterogeneous Parallelism, Hardware Specialization, and
+      Acceleration
+        - Heterogeneous Mixtures of general-purpose CPUs
+            - Modeling critical sections in Amdahl’s Law and its
+              implications in multicore design -
+              http://dl.acm.org/citation.cfm?id=1816038.1816011
+    - Part IV: Emerging and alternative computing
+        - Resistive Computing
+            - Resistive computation: avoiding the power wall with
+              low-leakage STT-MRAM based computing -
+              http://dl.acm.org/citation.cfm?id=1816012
+            - Digital Logic Implementation in Memristor-based
+              Crossbars: A Tutorial -
+              http://dl.acm.org/citation.cfm?id=1747870
+            - A Functional Hybrid Memristor Crossbar-Array/CMOS System
+              for Data Storage and Neuromorphic Applications -
+              http://web.eecs.umich.edu/~wluee/Kim_HybridMemristor_NL201
+              2.pdf
+        - Non-volatile Memory Technology
+            - TODO
+        - Energy-harvesting, intermittent, and ambiently-powered systems
+            - Battery-free Wireless Identification and Sensing -
+              http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1401
+              841
+            - Mementos: system support for long-running computation on
+              RFID-scale devices -
+              http://dl.acm.org/citation.cfm?doid=1950365.1950386
+            - Automated checkpointing for enabling intensive
+              applications on energy harvesting devices -
+              http://dl.acm.org/citation.cfm?id=2648678
+            - A Wireless Sensing Platform Utilizing Ambient RF Energy -
+              http://sensor.cs.washington.edu/pubs/wisnet_ambient_rf_ene
+              rgy.pdf
+            - Ambient Backscatter: Wireless Communication Out of Thin
+              Air - http://abc.cs.washington.edu/files/comm153-liu.pdf
+        - Approximate Computing
+            - General-purpose code acceleration with limited-precision
+              analog computation -
+              http://dl.acm.org/citation.cfm?id=2665746
+            - Approximate storage in solid-state memories -
+              http://dl.acm.org/citation.cfm?id=2540712
+            - Neural Acceleration for General Purpose Approximate
+              Programs - http://dl.acm.org/citation.cfm?id=2457519
+            - Uncertain<t>: a first-order type for uncertain data -
+              http://dl.acm.org/citation.cfm?id=2541958
+        - Miscellaneous emerging technologies
+            - Race logic: a hardware acceleration for dynamic
+              programming algorithms -
+              http://dl.acm.org/citation.cfm?id=2665747
+            - Idempotent processor architecture -
+              http://dl.acm.org/citation.cfm?id=2155637&CFID=458677912&C
+              FTOKEN=56646311
