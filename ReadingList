@@ -130,6 +130,50 @@
               http://dl.acm.org/citation.cfm?id=1508246
     - Part III: Heterogeneous Parallelism, Hardware Specialization, and
       Acceleration
+        - Fused and Composable Heterogeneous Cores
+            - Composable, light-weight processors -
+              http://dl.acm.org/citation.cfm?id=1331733
+            - Core-fusion: accomodating software diversity in chip
+              multiprocessors -
+              http://dl.acm.org/citation.cfm?id=1250686
+            - CoreGenesis: erasing core boundaries for robust and
+              configurable performance -
+              http://dl.acm.org/citation.cfm?id=1854357
+            - Enabling Dynamic Heterogeneity Through Core-on-core
+              Stacking - http://dl.acm.org/citation.cfm?id=2596674
+            - Dynamic heterogeneity and the need for multicore
+              virtualization - http://dl.acm.org/citation.cfm?id=1531797
+        - Accelerators and Specialization
+            - CHARM: a composable, heterogeneous, accelerator-rich
+              microprocessor - http://dl.acm.org/citation.cfm?id=2333747
+            - Conservation cores: reducing the energy of mature
+              computations - http://dl.acm.org/citation.cfm?id=1736044
+            - Convolution engine: balancing efficiency & flexibility in
+              specialized computing -
+              http://dl.acm.org/citation.cfm?id=2485925
+        - Reconfigurable Accelerators
+            - Single-Chip Heterogeneous Computing: Does the Future
+              Include Custom Logic, FPGAs, and GPGPUs? -
+              http://dl.acm.org/citation.cfm?id=1935024
+            - LINQits: Big Data on Little Clients -
+              http://dl.acm.org/citation.cfm?id=2485945&CFID=458677912&C
+              FTOKEN=56646311
+            - A reconfigurable fabric for accelerating large-scale
+              datacenter services -
+              http://dl.acm.org/citation.cfm?id=2665678
+            - Neural Acceleration for General Purpose Approximate
+              Programs - http://dl.acm.org/citation.cfm?id=2457519
+              (x-listed w/ Approximate)
+        - Memory Systems for Heterogeneous and Reconfigurable Systems
+            - CoRAM: an in-fabric memory architecture for FPGA-based
+              computing - http://dl.acm.org/citation.cfm?id=1950435
+            - LEAP scratchpads: automatic memory and cache management
+              for reconfigurable logic -
+              http://dl.acm.org/citation.cfm?id=1950421
+            - Heterogeneous system coherence for integrated CPU-GPU
+              systems - http://dl.acm.org/citation.cfm?id=2540747
+            - Heterogeneous-race-free Memory Models -
+              http://dl.acm.org/citation.cfm?id=2541981
         - Heterogeneous Mixtures of general-purpose CPUs
             - Modeling critical sections in Amdahl’s Law and its
               implications in multicore design -

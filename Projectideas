@@ -1,0 +1,47 @@
+- Research Project Ideas
+    - Specialized hardware support for rank-decomposed, matrix, dynamic
+      programming (from Todd Mytkowicz @ MSR)
+    - Energy-harvesting model and simulation infrastructure
+    - Measurement study of architectural implications of non-volatile
+      technology as storage or logic in a CPU
+    - Relaxed memory consistency for FPGA/CPU SoCs
+    - Approximate synchronization for approximate/relaxed memory
+      consistency
+    - Hardware support for data-centric synchronization / per-address
+      memory fences
+    - Heterogeneous memory consistency for CPU+FPGA systems with
+      per-state-machine consistency guarantees
+    - Implement new functionality using race logic
+    - Compiling for race logic, or an abstract model of delay-based
+      computing
+    - Measurement study of intermittence in reconfigurable computing
+      devices
+    - Approximate, learned data compression in the cache or at the LLC
+      or main memory boundary
+    - Data-race detection or SC-violation detection in a reconfigurable
+      computing device or heterogeneous FPGA/CPU-based system.
+    - Application study: precision vs. performance trade-off in a
+      parallel system with approximate data consistency
+    - Deterministic parallel computation in an FPGA
+    - Application study: when is it beneficial to execute code on a GPU
+      or FPGA in parallel with execution on a CPU?  Parallel pipelines?
+    - Hardware concurrent revisions consistency.  Architectural
+      implementation with custom merge functions in parallel caches
+    - Symbolic execution to evaluate candidate power schedules for
+      programs running on intermittently powered devices
+- Benchmarks
+    - PARSEC (parallel applications)
+    - SPEC (more parallel applications)
+    - Rodinia (heterogeneous parallel applications)
+- Simulators and Tools
+    - Gem5 (architecture simulator)
+    - MarssX86 (architecture simulator)
+    - McPat (power modeling)
+    - Pin (binary instrumentation)
+    - Cacti (power modeling)
+    - LLVM (compiler infrastructure)
+    - ANTLR (Java compiler infrastructure)
+    - Soot (Java bytecode instrumentation)
+    - Z3 (SMT solver)
+    - JPF (Java symbolic execution engine)
+    - KLEE (C/C++ symbolic execution engine)
